@@ -45,7 +45,6 @@ export const TASK_STATUS_LIST = [
 export const GROUP_RESOLVE_POLICY_LIST = [GROUP_RESOLVE_POLICY.ALL, GROUP_RESOLVE_POLICY.ANY, GROUP_RESOLVE_POLICY.N];
 
 export const RIGHT_TASKS_MANAGEMENT_SEARCH = 191001;
-export const RIGHT_TASKS_MANAGEMENT_SEARCH_ALL = 191005;
 
 export const TASKS_MANAGEMENT_ROUTE_GROUPS_GROUP = 'tasksManagement.route.group';
 
@@ -53,6 +52,13 @@ export const TASK_GROUP_SEARCH = 190001;
 export const TASK_GROUP_CREATE = 190002;
 export const TASK_GROUP_UPDATE = 190003;
 export const TASK_GROUP_DELETE = 190004;
+
+export const TASK_FLOW_SEARCH = 192001;
+export const TASK_FLOW_CREATE = 192002;
+export const TASK_FLOW_UPDATE = 192003;
+export const TASK_FLOW_DELETE = 192004;
+
+export const TASKS_MANAGEMENT_ROUTE_FLOWS_FLOW = 'tasksManagement.route.flow';
 
 export const TASK_UPDATE = 191003;
 
